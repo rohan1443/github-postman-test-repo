@@ -7,14 +7,30 @@
 	"item": [
 		{
 			"name": "test resource",
-			"_postman_id": "881dd2fb-2aef-4c75-abd1-8f3db205aefc",
+			"id": "881dd2fb-2aef-4c75-abd1-8f3db205aefc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/tasks/a1898aae-1197-42b8-8414-d3df8a100f12"
+				"url": {
+					"raw": "http://localhost:3000/tasks?resourceID=123456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "resourceID",
+							"value": "123456"
+						}
+					]
+				}
 			},
 			"response": []
 		}
