@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "a78b4b3c-8df6-48a8-bedb-1b87c3750f11",
 		"name": "github postman test collection",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests a user can send?",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
